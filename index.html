@@ -1,17 +1,52 @@
 <!DOCTYPE html><!--Simon collins-->
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/assignment.css"/>
+    <meta charset="utf-8">
     <title>Asssignment 1</title>
 </head>
 <body>
 <section>
-    <form>
-
+    <form name="Customer details">
+        <p>First Name <input type="text" name="firstname" required="required" /></p><br />
+        <p>Last Name <input type="text" name="lastname"  required="required" /></p><br />
+        <p>Post Code <input type="text" name="postcode" required="required" /></p><br />
+        <p>Email <input type="text" name="Email" required="required" /></p><br />
     </form>
 </section>
 <section>
-    <form>
-        
+    <form name="Payment details">
+        <p>Credit Card 
+            <select name="creditCard">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </p><br />
+        <p>Card number<input type="text" name="cardNumber"></p><br />
+        <p>CVV<input type="text" name="CCV"></p><br />
+        <p>Expiry MM/YY
+            <select name="expiryDate">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+            </select>    
+            <select>    
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                    <option value="4">2023</option>
+                
+            </select>
+        </p><br />
     </form>
 </section>
 </body>

@@ -11,7 +11,10 @@
     font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
 }
-table tr {    
+table tr td {   
     margin: 0 auto;
+}
+html {
+    background-color:cadetblue;
 }
 

@@ -5,7 +5,7 @@
     border-width: 8px;
 }
 .container{
-    width: 40%;
+    width: 20%;
     min-width: 500px;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
@@ -14,7 +14,6 @@
 table tr td {   
     margin: 0 auto;
 }
-html {
-    background-color:cadetblue;
-}
+
+
 

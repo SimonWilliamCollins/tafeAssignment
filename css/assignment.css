@@ -1,5 +1,5 @@
 .border {
-    width: 100%;
+    width: 80%;
     height: 0 auto;
     border-style: groove;
     border-width: 8px;
@@ -9,8 +9,24 @@
     min-width: 500px;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
+    justify-content: space-evenly;
     box-sizing: border-box;
 }
-table tr td{
-    margin: 0 auto;
+.margin{
+    margin: 5px;
+}
+.mycentre{
+	text-align: center;
+}
+body{
+    background-color: rgb(147, 172, 223);
+}
+input, select{
+    background-color: rgb(231, 238, 236);
+}
+button{
+    background-color: rgb(155, 236, 186);
+}
+fieldset{
+    background-color: rgb(192, 217, 224);
 }

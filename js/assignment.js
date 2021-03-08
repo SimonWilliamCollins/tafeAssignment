@@ -23,7 +23,7 @@ called function onClick()
 
 function onClick(){
     choice = parseInt(prompt("Which website do you want?\n 1: Google\n 2: Youtube\n 3: Tafe SA", "1"));
-    if (choice != null && choice != ''){
+    if (choice != null || choice != '' || choice != NaN){
         switch (choice) {
             case 1:
                     window.open ("https://www.google.com/", "myWindow", 
@@ -40,7 +40,7 @@ function onClick(){
             default:
                     alert("Please choose 1 2 or 3.")
                     onClick()
-            }
+        }
     }
     return;
 }
